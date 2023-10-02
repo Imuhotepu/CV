@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url(cv_back2.jpg);
+    
+}
+header{
+    margin: 20px;
+    position: sticky;
+    top: 0;
+}
+#imgProfil{
+    border-radius: 65px;
+    align-self: center;
+    margin-right: 1%;
+}
+.dvH{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 10%;
+    background-color: black;
+    border-radius: 20px;
+}
+.dvI{
+    border-radius: 10%;
+    margin-right: 50%;
+    background: red;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  }
+
+.name{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 20px 20px;
+    border-radius: 20px;
+    position: relative;
+    animation: mySecond 5s 3;
+    animation-direction: alternate;
+}
+@keyframes mySecond{
+    0%   {background: white; left: 0px; top: 0px;}
+    25%  {background: black; color: white; left: 200px; top: 0px;}
+    100% {background: white; left: 0px; top: 0px;}
+}
+.name :hover{
+    background-color: rgb(196, 11, 196);
+}
+h1{
+    margin: 20px;
+    transition: 2s;
+}
+
+.generale{
+    margin: 50px 100px;
+    background-color: black;
+    border-radius: 20px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15%;
+}
+.block1{
+    width: 48%;
+    margin-right: 8%;
+}
+#image img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 30px;
+    height: 40px;
+    margin-left: 5px;
+    position: relative;
+    animation: mesImg 5s, 3 ;
+    animation-direction: alternate;
+}
+@keyframes mesImg{
+    0%   {background: white; left: 0px; top: 0px;}
+    25%  {background: black; color: white; left: 200px; top: 0px;}
+    100% {background: white; left: 0px; top: 0px;}
+}
+#image img:hover{
+ transform: scale(1.5);
+}
+.vert{
+   
+    align-items: center;
+}
+.vert .block1{
+    margin-left: 10px;
+}
+.vert .block2{
+    margin-right: 10px;
+}
+section{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 10px 30%;
+    border-radius: 10px;
+}
+h2{
+    color: red;
+    border: solid blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
